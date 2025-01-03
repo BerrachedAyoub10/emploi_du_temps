@@ -1,0 +1,57 @@
+.professeur-page {
+  padding: 20px;
+  background-color: #f4f4f9;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.professeur-page h1 {
+  color: #4a90e2;
+  margin-bottom: 20px;
+}
+
+.professeur-section {
+  margin-bottom: 30px;
+}
+
+.professeur-section h2 {
+  color: #4a90e2;
+  margin-bottom: 15px;
+}
+
+.table {
+  width: 100%;
+  background-color: white;
+  border-collapse: collapse;
+}
+
+.table th,
+.table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.table th {
+  background-color: #4a90e2;
+  color: white;
+}
+
+.table tbody tr:nth-child(even) td {
+  background-color: #f1f1f1;
+}
+
+.professeur-button {
+  padding: 10px 20px;
+  background-color: #4a90e2;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.professeur-button:hover {
+  background-color: #357ab8;
+}

@@ -1,0 +1,49 @@
+.schedule-container {
+    padding: 20px;
+    background-color: #f4f4f9;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .schedule-container h2 {
+    color: #4a90e2;
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-control {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .table {
+    width: 100%;
+    background-color: white;
+    border-collapse: collapse;
+  }
+  
+  .table th, .table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+    vertical-align: middle;
+  }
+  
+  .table th {
+    background-color: #4a90e2;
+    color: white;
+  }
+  
+  .table td {
+    background-color: #f9f9f9;
+  }
+  
+  .table tbody tr:nth-child(even) td {
+    background-color: #f1f1f1;
+  }
+  
